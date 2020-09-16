@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <title>Figma</title>
+  <link rel="stylesheet" href="css/style.min.css" type="text/css" />
+  <link rel="stylesheet" href="css/all.min.css" type="text/css" />
+  <script src="js/all.min.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="fixed">
+    <div class="fixed__wrap wrap">
+        <div class="fixed__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    
+        <div class="fixed__design">
+            <p>Дизайн интрерьера <span>Номер 1 в Вологде</span></p>
+        </div>
+
+        <div class="fixed__map">
+            <p>Вологда <span>ул. Кирова</span></p>
+        </div>
+
+        <div class="fixed__phone">
+            <a href="#">
+                <img src="img/phone.svg" alt="Телефон">   
+                <span>8 800 111 11 11</span>   
+            </a>
+        </div>
+
+        <button class="fixed__btn">Закажите звонок</button>
+        <p class="fixed__callback">Перезвоним <br> за 24 секунды</p>
+    </div>
+</div>
+  <div class="main-menu">
+    <ul class="main-menu__list">
+        <li class="main-menu__item">
+            <button class="main-menu__close">Меню</button>
+        </li>
+
+        <li class="main-menu__item">
+            <a href="#secondPage" class="main-menu__link">Портфолио</a>
+        </li>
+
+        <li class="main-menu__item">
+            <a href="#thirdPage" class="main-menu__link">Детали работы</a>
+        </li>
+
+        <li class="main-menu__item">
+            <a href="#fourthPage" class="main-menu__link">Как работаем</a>
+        </li>
+
+        <li class="main-menu__item">
+            <a href="#fifthPage" class="main-menu__link">Калькулятор</a>
+        </li>
+
+        <li class="main-menu__item">
+            <a href="#lastPage" class="main-menu__link">Контакты</a>
+        </li>
+
+        <li class="main-menu__item">
+            <a href="tel:88001111111" class="main-menu__phone">8 800 111 11 11</a>
+        </li>
+
+        <li class="main-menu__item">
+            <button class="main-menu__btn">Закажите звонок</button>
+        </li>
+
+        <li class="main-menu__item">
+            <p class="main-menu__callback">Перезвоним за 24 секунды</p>
+        </li>
+
+        
+    </ul>
+</div>
+  <ul class="menu">
+    <li class="menu__item active" data-menuanchor="firstPage">
+        <a href="#firstPage" aria-label="Первый экран"></a>
+    </li>
+
+    <li class="menu__item" data-menuanchor="secondPage">
+        <a href="#secondPage" aria-label="Второй экран"></a>
+    </li>
+
+    <li class="menu__item" data-menuanchor="thirdPage">
+        <a href="#thirdPage" aria-label="Третий экран"></a>
+    </li>
+
+    <li class="menu__item" data-menuanchor="fourthPage">
+        <a href="#fourthPage" aria-label="Четвертый экран"></a>
+    </li>
+
+    <li class="menu__item" data-menuanchor="fifthPage">
+        <a href="#fifthPage" aria-label="Пятый экран"></a>
+    </li>
+
+    <li class="menu__item" data-menuanchor="lastPage">
+        <a href="#lastPage" aria-label="Шестой экран"></a>
+    </li>
+</ul>
+<button class="scroll-down">
+    <img src="img/scroll-down.svg" alt="Ниже">
+    <span>Скрольте <br> ниже</span>
+</button>
+  <div class="fullpage">
+    <header class="header section">
+    <div class="header__wrap wrap">
+        <h1 class="header__title">Студия дизайна интерьера в Вологде</h1>
+        <h2 class="header__subtitle">От 340 Р за м, сроком от 2 дней</h2>
+        <div class="header__buttons">
+            <a href="#secondPage" class="header__works">Смотреть работы</a>
+            <p class="header__leader"><span>Лидер рынка</span>2020</p>
+        </div>
+    </div>
+    <div class="header__wrap-two wrap">
+        <ul class="header__list advantages">
+            <li class="advantages__item">
+                <i class="fas fa-play advantages__icon"></i>
+                <p class="advantages__text">3D-визуализации</p>
+            </li>
+
+            <li class="advantages__item">
+                <i class="fas fa-copyright advantages__icon"></i>
+                <p class="advantages__text">Уникальный дизайн проект</p>
+            </li>
+
+            <li class="advantages__item">
+                <i class="fas fa-calculator advantages__icon"></i>
+                <p class="advantages__text">&nbsp;Расчет стоимости работ</p>
+            </li>
+
+            <li class="advantages__item">
+                <i class="fas fa-ruble-sign advantages__icon"></i>
+                <p class="advantages__text">Бесплатная консультация</p>
+            </li>
+        </ul>
+    </div>
+</header>
+    <section class="projects section">
+    <div class="projects__wrap wrap">
+        <div class="projects__slides slide">
+            <h2 class="projects__title">с 2015 года успешно сдали более 250 проектов</h2>
+            <p class="projects__example">Вот несколько примеров:</p>
+            <div class="projects__gallery">
+                <div class="projects__big">
+                    <img src="img/gallery-big.jpg" alt="">
+                </div>
+                <div class="projects__mini">
+                    <a aria-label="Первое фото" date-src="img/screen-bg.jpg" href="#">
+                        <img src="img/gallery-mini1.jpg" alt="">
+                    </a>
+                    <a aria-label="Второе фото" date-src="img/screen-bg.jpg" href="#">
+                        <img src="img/gallery-mini2.jpg" alt="">
+                    </a>
+                    <a aria-label="Третье фото" date-src="img/screen-bg.jpg" href="#">
+                        <img src="img/gallery-mini3.jpg" alt="">
+                    </a>
+                    <a aria-label="Четвертое фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="projects__information">
+                <div class="projects__it-was">
+                    <p>Что было:</p>
+                    <p>Квартира со стандартной планировкой и черновой отделкой.</p>
+                </div>
+
+                <div class="projects__task">
+                    <p>Задача:</p>
+                    <ul>
+                        <li>Разработать современный дизайн.</li>
+                        <li>Визуально увеличить пространство.</li>
+                        <li>Добавить вкладку “Мой профиль”.</li>
+                    </ul>
+                </div>
+
+                <div class="projects__result">
+                    <p>Что было:</p>
+                    <p>Произвели полную переработку дизайна. За счёт обновленного раздела “Галереи” сайт стал выглядеть более интересным. Сайт получился современный и удобный. Поменяли html под дизайн-проект</p>
+                </div>
+
+
+
+            </div>
+            <div class="projects__object">
+                <div class="projects__item">
+                    <p>Объект: <span>3-х комнатная квартира</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Площадь: <span>81 м2</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Жилой комплекс: <span>Гранд-фамилия</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Вид дизайна: <span>Премиум</span></p>
+                </div>
+                
+                <div class="projects__item">
+                    <p>Срок выполнения: <span>4 дня</span></p>
+                </div>
+            
+                <div class="projects__item">
+                    <p>Стоимость: <span>12 000 Р.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="projects__slides slide">
+            <h2 class="projects__title">с 2015 года успешно сдали более 250 проектов</h2>
+            <p class="projects__example">Вот несколько примеров:</p>
+            <div class="projects__gallery">
+                <div class="projects__big">
+                    <img src="img/gallery-big.jpg" alt="">
+                </div>
+                <div class="projects__mini">
+                    <a aria-label="Первое фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini1.jpg" alt="">
+                    </a>
+                    <a aria-label="Второе фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini2.jpg" alt="">
+                    </a>
+                    <a aria-label="Третье фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini3.jpg" alt="">
+                    </a>
+                    <a aria-label="Четвертое фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="projects__information">
+                <div class="projects__it-was">
+                    <p>Что было:</p>
+                    <p>Квартира со стандартной планировкой и черновой отделкой.</p>
+                </div>
+
+                <div class="projects__task">
+                    <p>Задача:</p>
+                    <ul>
+                        <li>Разработать современный дизайн.</li>
+                        <li>Визуально увеличить пространство.</li>
+                        <li>Добавить вкладку “Мой профиль”.</li>
+                    </ul>
+                </div>
+
+                <div class="projects__result">
+                    <p>Что было:</p>
+                    <p>Произвели полную переработку сайта. За счёт обновленного раздела “Галереи” сайт стал выглядеть более интересным. Сайт получился современный и удобный. Поменяли html под дизайн-проект</p>
+                </div>
+
+
+
+            </div>
+            <div class="projects__object">
+                <div class="projects__item">
+                    <p>Объект: <span>3-х комнатная квартира</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Площадь: <span>81 м2</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Жилой комплекс: <span>Гранд-фамилия</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Вид дизайна: <span>Премиум</span></p>
+                </div>
+                
+                <div class="projects__item">
+                    <p>Срок выполнения: <span>4 дня</span></p>
+                </div>
+            
+                <div class="projects__item">
+                    <p>Стоимость: <span>12 000 Р.</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="projects__slides slide">
+            <h2 class="projects__title">с 2015 года успешно сдали более 250 проектов</h2>
+            <p class="projects__example">Вот несколько примеров:</p>
+            <div class="projects__gallery">
+                <div class="projects__big">
+                    <img src="img/gallery-big.jpg" alt="">
+                </div>
+                <div class="projects__mini">
+                    <a aria-label="Первое фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini1.jpg" alt="">
+                    </a>
+                    <a aria-label="Второе фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini2.jpg" alt="">
+                    </a>
+                    <a aria-label="Третье фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini3.jpg" alt="">
+                    </a>
+                    <a aria-label="Четвертое фото" href="#" date-src='img/gallery-big.jpg'>
+                        <img src="img/gallery-mini4.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="projects__information">
+                <div class="projects__it-was">
+                    <p>Что было:</p>
+                    <p>Квартира со стандартной планировкой и черновой отделкой.</p>
+                </div>
+
+                <div class="projects__task">
+                    <p>Задача:</p>
+                    <ul>
+                        <li>Разработать современный дизайн.</li>
+                        <li>Визуально увеличить пространство.</li>
+                        <li>Добавить вкладку “Мой профиль”.</li>
+                    </ul>
+                </div>
+
+                <div class="projects__result">
+                    <p>Что было:</p>
+                    <p>Произвели полную переработку сайта. За счёт обновленного раздела “Галереи” сайт стал выглядеть более интересным. Сайт получился современный и удобный. Поменяли html под дизайн-проект</p>
+                </div>
+
+
+
+            </div>
+            <div class="projects__object">
+                <div class="projects__item">
+                    <p>Объект: <span>3-х комнатная квартира</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Площадь: <span>81 м2</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Жилой комплекс: <span>Гранд-фамилия</span></p>
+                </div>
+
+                <div class="projects__item">
+                    <p>Вид дизайна: <span>Премиум</span></p>
+                </div>
+                
+                <div class="projects__item">
+                    <p>Срок выполнения: <span>4 дня</span></p>
+                </div>
+            
+                <div class="projects__item">
+                    <p>Стоимость: <span>12 000 Р.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects__counts">
+            <span class="projects__first">1</span>
+            /
+            <span class="projects__last">520</span>
+        </div>
+    </div>
+</section>
+    <section class="details section">
+    <div class="details__wrap wrap">
+        <h2 class="details__title">При создании дизайна учитываем все детали.</h2>
+        <p class="details__text">Качество дизайна соответствует ожиданиям клиента. Потому что для своих дизайнов мы используем исключительно качественный и особый подход</p>
+        <ul class="details__list">
+            <li class="details__item"><span>Создание уюта</span></li>
+            <li class="details__item"><span>Комфорт</span></li>
+            <li class="details__item"><span>Создание уюта</span></li>
+            <li class="details__item"><span>Комфорт</span></li>
+        </ul>
+    </div>
+</section>
+    <section class="list-of-works section">
+    <div class="list-of-works__wrap wrap">
+        <h2 class="list-of-works__title">Вот так мы упрощаем жизнь наших клиентов</h2>
+        <ul class="list-of-works__block">
+            <li class="list-of-works__item">
+                <p>Дизайн</p>
+                <p>Выполним дизайн для любого помещения в назначенное время.</p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Дизайн проект</p>
+                <p>Создадим уникальный дизайн-проект, исходя из ваших пожеланий.</p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Три изменения</p>
+                <p>Мы внесем 3 любых изменения в сайт после утверждения проекта</p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Гарантии по договору 2 года</p>
+                <p>Гарантия на проект — 1 год.
+                На ремонтно-отделочные работы — 2 года.</p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Бесплатная консультация</p>
+                <p>Поможем разработать и улучшить ваш сайт</p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Поэтапная оплата</p>
+                <p>Оплачивайте проект поэтапно удобным для вас способом.
+                </p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Подарки клиентам</p>
+                <p>При заказе дизайна с нуля делаем приятные подарки нашим клиентам.</p>
+            </li>
+
+            <li class="list-of-works__item">
+                <p>Контроль качества</p>
+                <p>Вы можете в любой момент оценить качество работ.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section class="calculator section">
+    <div class="calculator__wrap wrap">
+        <h2 class="calculator__title">Рассчитайте стоимость дизайн-проекта</h2>
+
+    <img src="img/calc.png" alt="Калькулятор" class="calculator__img">
+    <form action="#" class="calculator__form calc">
+        <fieldset class="calc__group">
+            <legend class="calc__title">Тип здания:</legend>
+            <div class="calc__wrap">
+                <div class="calc__radio">
+                    <input type="radio" name="task" id="new" checked value="new">
+                    <label for="new">Дизайн с нуля</label>
+                </div>
+
+                <div class="calc__radio">
+                    <input type="radio" name="task" id="edit" value="edit">
+                    <label for="edit">Правка</label>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="calc__group">
+            <legend class="calc__title">Дизайн:</legend>
+            <div class="calc__wrap">
+                <div class="calc__radio">
+                    <input type="radio" name="for" id="home" value="home" checked>
+                    <label for="home">Дома</label>
+                </div>
+
+                <div class="calc__radio">
+                    <input type="radio" name="for" id="flat" value="flat">
+                    <label for="flat">Квартиры</label>
+                </div>
+
+                <div class="calc__radio">
+                    <input type="radio" name="for" id="office" value="office">
+                    <label for="office">Офиса</label>
+                </div>
+            </div>
+
+        </fieldset>
+
+
+        <fieldset class="calc__group">
+            <legend class="calc__title">Дополнительно:</legend>
+            <div class="calc__wrap">
+                <div class="calc__radio">
+                    <input type="checkbox" name="extra" id="plan" value="plan">
+                    <label for="plan">Планировочные 
+                        решения</label>
+                </div>
+
+                <div class="calc__radio">
+                    <input type="checkbox" name="extra" id="buy" value="buy">
+                    <label for="buy">Смета и закупки</label>
+                </div>
+
+                <div class="calc__radio">
+                    <input type="checkbox" name="extra" id="control" value="control">
+                    <label for="control">Генеральный надзор</label>
+                </div>
+            </div>
+
+        </fieldset>
+
+        <fieldset class="calc__group">
+            <legend class="calc__title">Площадь м2:</legend>
+            <div class="calc__wrap">
+
+                <div class="calc__input">
+                    <input class="calc__square" type="number" name="square" min="1" max="1000" placeholder="68" aria-label="Площадь помещения">
+                </div>
+
+                <div class="calc__range">
+                    <output>1</output>
+                    <input aria-label="Площадь помещения" type="range" name="square" min="1" max="1000" step="1" value="1">
+                    <label for="square">Генеральный надзор</label>
+                </div>
+            </div>
+        </fieldset>
+        <div class="calc__wrap">
+            <button class="calc__btn">Расчитать</button>
+            <p class="calc__result">Результат: <span>5 000</span>Р </p>
+        </div>
+
+    </form>
+</div>
+</section>
+    <section class="contacts section">
+    <div class="contacts__wrap wrap">
+        <h2 class="contacts__title">Свяжитесь с нами любым удобным способом.</h2>
+        <div class="contacts__info">
+            <p class="contacts__phone">
+                <span>Телефон:</span>
+                <a href="tel:88001111111">8-800-111-11-11</a>
+            </p>
+
+            <p class="contacts__mail">
+                <span>Почта:</span>
+                <a href="mailto:design35@gmail.com">design35@gmail.com</a>
+            </p>
+            <p class="contacts__guest">Или приежайте к нам в гости. </p>
+
+            <p class="contacts__address">
+                <span>Адрес:</span>
+                <span>г. Вологда, ул. Ленинградская</span>
+            </p>
+            <p class="contacts__scheme">
+                <span>Как нас быстрой найти.</span>
+                <a href="#">Схема прохода</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+  </div>
+
+</div>
+</body>
+</html>
+
